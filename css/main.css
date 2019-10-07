@@ -1,0 +1,136 @@
+.navbar {
+    margin-top: 0px;
+    /* background-image:linear-gradient(to left,#4CAF50,wheat,wheat,wheat,#4CAF50); */
+    /* background-color: #2A2A26; */
+    background-color: #2A2A26;
+    /* background-color: #177A41; */
+    
+    
+    
+  }
+  
+  .navbar-default .navbar-nav>li>a {
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-size: 16px;
+  }
+  #sign-up-modal .modal-dialog{
+    width:550px;
+  }
+  #sign-up-modal input[type=text],input[type=password],input[type=email]{
+    margin-top:10px;
+    margin-bottom:10px;
+  }
+  
+  
+  .carousel-inner .carousel-caption h1 {
+    color: #000000;
+  }  
+ .col{
+     margin-left:20px;
+ } 
+ .d-block{
+    opacity: 0.78;
+ }
+i{
+    margin-top:40px;
+    /* font-size:200px; */
+ }
+ .card i{
+   color:rgb(26, 161, 82);
+   font-size:120px;
+ }
+ .about{
+    text-align: center;
+    border-radius:20px;
+    font-size:80px;
+    color:#ECE936;
+}
+.con{
+    align-items: center;
+}
+.parallax-window{
+    width:100%;
+    height:500px;
+}
+
+.parallax-window h3{
+    color:white;
+    text-align:center;
+    font-size:40px;
+    /* padding-top:150px; */
+}
+.parallax-window .row .col{
+  color:white;
+  font-size: 40px;
+  text-align: center;
+}
+.carousel-caption{
+  top:50%;
+  /* font-size:20%; */
+}
+@media (max-width:600px){
+  .carousel-item img{
+    height:600px;
+  }
+  .card{
+    left :20%;
+  }
+}
+@media(min-width:600px){
+  .card{
+    left:10%;
+  }
+}
+.nav-link{
+  margin-left:60px;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+.featureshead p{
+  color:#000000;
+  text-align: center;
+  font-size: 20px;
+}
+.featureshead h2{
+  font-size:80px;
+  color:#ECE936;
+  text-align: center;
+}
+.featuresbody img{
+  width:40%;
+  margin-left:10px;
+  height:100%;
+} 
+ .featuresbody span{
+  font-size:25px;
+ }
+ .featuresbody span p{
+  font-size:25px;
+  color:black;
+ }
+ .featuresbody span i{
+   font-size: 43px;
+   /* margin-left:40px; */
+   margin-bottom:20px;
+   color: #3B9AFF;
+ } 
+ .featuresbody{
+   background-color: #F5F5F5;
+ }
+ .contact{
+   background-color: #252830;
+ }
+ .contact strong{
+   color:white;
+   font-size:48px;
+   /* text-decoration: underline; */
+ }
+ .contact i{
+   font-size:40px;
+ }
+ .contact h4{
+   color: white;
+   text-decoration: underline;
+   text-decoration-style: unset;
+ }
